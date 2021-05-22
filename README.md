@@ -2,4 +2,4 @@
 
 Documentation for the Dialogue System found in Community Content.
 
-https://popthosepringles.github.io/Core-Dialogue-System
+https://popthosepringles.github.io/Core-Dialogue-System-Docs
