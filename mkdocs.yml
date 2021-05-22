@@ -1,0 +1,51 @@
+site_name: Dialogue System
+site_description: Documentation for the Dialogue System by CommanderFoo in Community Content
+docs_dir: docs
+extra_css:
+  - stylesheets/extra.css
+theme:
+  palette:
+    scheme: slate
+    primary: blue
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - toc.integrate
+    - navigation.expand
+  font:
+      text: Lato
+      code: JetBrains Mono
+  
+nav:
+  - Documentation:
+    - index.md
+    - quick-start.md
+    - how.md
+    - Tutorial:
+      - tutorial/setup.md
+      - tutorial/create-npc.md
+      - tutorial/database-folder.md
+      - tutorial/npc-conversation.md
+      - tutorial/npc-trigger.md
+      - tutorial/conversation-entry.md
+      - tutorial/conversation-choices.md
+    - credits.md
+
+  - Core Games:
+    - https://coregames.com
+
+  - Twitter:
+    - https://twitter.com/PIXELDEPTH
+
+  - GitHub:
+    - https://pixeldepth.net
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - markdown.extensions.codehilite:
+      guess_lang: false
