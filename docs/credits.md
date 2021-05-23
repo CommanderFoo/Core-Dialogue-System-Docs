@@ -1,6 +1,6 @@
 # Credits
 
-The follow assets were used in the `Advanced Example`.
+The following assets were used in the `Advanced Example`.
 
 **Artist:** <span style="color: yellow">NyaAlchemi</span><br />
 **Name:** <span style="color: yellow">[Alchemi] 5 Market Stalls</span><br />

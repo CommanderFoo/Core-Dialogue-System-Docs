@@ -12,7 +12,7 @@ The key things to take away from this is there are 3 data container scripts that
 
  -  `Dialogue_Conversation_Entry`
 
-	This data container script is the entry for the character.  Meaning, this is what the character will say to the player.  You can nest these and also have branching dialogue in no time at all.  `Dialogue_Player_Choice` data containers can also become childs of this container.
+	This data container script is the entry conversations.  Meaning, this is what the character will say to the player.  You can nest these and also have branching dialogue in no time at all.  `Dialogue_Player_Choice` data containers can also become childs of this container.
 
  -  `Dialogue_Player_Choice`
 
