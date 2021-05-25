@@ -2,7 +2,7 @@
 
 Call events is a way for you to use the `Events` API to connect to an event.  This is useful if you need to do perform something when a player opens a dialogue, or an entry is displayed.
 
-The `call_event` property supports infinite parameters that will be passed to your handler.
+The `call_event` property supports infinite parameters that will be passed to your handler, the first parameter passed to your handler is the object for either `Conversation`, `Entry`, or `Choice`.
 
 So for example, the `call_event` property can be set like so where the first part of the string is the event name.
 
@@ -15,7 +15,7 @@ So in this case the string `my_event` is the event that will be broadcasted too,
 Example:
 
 ```
-Events.Connect("my_event", function(str, a, b, c)
+Events.Connect("my_event", function(obj, str, a, b, c)
 	print(str, a, b, c)
 end)
 ```
