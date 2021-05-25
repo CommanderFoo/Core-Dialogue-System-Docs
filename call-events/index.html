@@ -779,7 +779,7 @@
                 
                 <h1 id="call-events">Call Events</h1>
 <p>Call events is a way for you to use the <code>Events</code> API to connect to an event.  This is useful if you need to do perform something when a player opens a dialogue, or an entry is displayed.</p>
-<p>The <code>call_event</code> property supports infinite parameters that will be passed to your handler.</p>
+<p>The <code>call_event</code> property supports infinite parameters that will be passed to your handler, the first parameter passed to your handler is the object for either <code>Conversation</code>, <code>Entry</code>, or <code>Choice</code>.</p>
 <p>So for example, the <code>call_event</code> property can be set like so where the first part of the string is the event name.</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>my_event;hello,1,2,3
 </code></pre></div>
@@ -788,7 +788,7 @@
 <p>Example:</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>Events.Connect(&quot;my_event&quot;, function(str, a, b, c)
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>Events.Connect(&quot;my_event&quot;, function(obj, str, a, b, c)
     print(str, a, b, c)
 end)
 </code></pre></div>
