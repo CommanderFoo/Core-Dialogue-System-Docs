@@ -16,3 +16,4 @@ Below are all the properties that are on the `Dialogue System` template.
 | `play_click_sound` | If enabled, the click sound will be played. |
 | `play_type_sound` | If enabled, the type sound will be played. |
 | `min_speaker_width` | The min width of the speaker element that shows the name of the NPC / You.  This is dynamically set for each entry. |
+| `click_progress` | If enabled, then the player does not need to click on the Next or Close button to progress the dialogue. |

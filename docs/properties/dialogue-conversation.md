@@ -21,3 +21,12 @@ Below are all the properties that are on the `Dialogue_Conversation` script.
 | `indicator_offset` | The offset of the indicator. |
 | `indicator_template` | The indicator template to use for this character. |
 | `random` | If enabled, then it will pick a random entry while respecting conditions. |
+| `animation_stance` | The animation stance for this NPC. |
+| `animation_stance_playback_rate` | The playback rate of the stance animation. |
+| `animation_stance_loop` | If true then the animation stance will loop. |
+| `animation` | The animation to play for this NPC. |
+| `animation_loop` | If true then the animation will loop or go back to it's stance animation. |
+| `animation_playback_rate` | The playback rate of the animation. |
+
+!!! tip
+	It's not a good idea to use an animation stance and animation for the NPC, as the animation will override the stance.
