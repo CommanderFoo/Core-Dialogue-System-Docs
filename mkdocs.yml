@@ -24,6 +24,7 @@ nav:
     - quick-start.md
     - how.md
     - themes.md
+    - call-events.md
     - replacements.md
     - conditions.md
     - callbacks.md
