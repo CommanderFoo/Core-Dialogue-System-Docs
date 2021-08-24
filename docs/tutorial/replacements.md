@@ -4,7 +4,7 @@ Replacements are a way of providing you variables that you can place into your t
 
 For example, if you want your NPC to greet the player by saying "Hello CommanderFoo", we can use a name variable like so.
 
-```
+```lua
 Hello {name}.
 ```
 

@@ -1,6 +1,6 @@
-# 10.  Conditions
+# 10. Conditions
 
-Conditions provide you with an inline way of performing a condition check for the entry or choice.  For example, if you didn't want a choice to show up to the player if they already had some cookies, we can do a resource check and hide the choice from the player.
+Conditions provide you with an inline way of performing a condition check for the entry or choice. For example, if you didn't want a choice to show up to the player if they already had some cookies, we can do a resource check and hide the choice from the player.
 
 Conditions can be used to check a few different things and can really add a little more depth to the dialogues for players.
 
@@ -10,20 +10,20 @@ In the video below we will setup a resource check condition so when the player a
 
 In the video there are 2 things to note.
 
-1.  <span style="color: yellow">**A replacement variable being used.**</span>
+1. <span style="color: yellow">**A replacement variable being used.**</span>
 
 	`{resource=cookie,true,true}`
 
-	This is a replacement variable that will show the amount of cookies the play has in the dialogue text.  The 2 `true` parameters are to handle 2 things automatically for us.
+	This is a replacement variable that will show the amount of cookies the play has in the dialogue text. The 2 `true` parameters are to handle 2 things automatically for us.
 
 	- Write out the name of the resource.
 	- Handle the plural for us so that cases such as "You have 1 Cookie" and "You have 100 Cookies" where "s" is added automatically so it reads better for the player.
 
-2.  <span style="color: yellow">**Condition Syntax.**</span>
+2. <span style="color: yellow">**Condition Syntax.**</span>
 
 	`resource=cookie;>=1`
 
-	This is the condition part.  What we are doing here is telling the system to look at the resource `cookie` and return true if the the player has greater than or equal to 1 cookie.  The system will look at this condition, and if is true, then the conversation entry will be displayed instead of the other one.
+	This is the condition part. What we are doing here is telling the system to look at the resource `cookie` and return true if the the player has greater than or equal to 1 cookie. The system will look at this condition, and if is true, then the conversation entry will be displayed instead of the other one.
 
 	This is an easy no code solution and allows quick iteration of your dialogue entries without needing to write any Lua code.
 

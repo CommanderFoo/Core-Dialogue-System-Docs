@@ -6,7 +6,7 @@ The `call_event` property supports infinite parameters that will be passed to yo
 
 So for example, the `call_event` property can be set like so where the first part of the string is the event name.
 
-```
+```lua
 my_event;hello,1,2,3
 ```
 
@@ -14,11 +14,11 @@ So in this case the string `my_event` is the event that will be broadcasted too,
 
 Example:
 
-```
+```lua
 Events.Connect("my_event", function(obj, str, a, b, c)
 	print(str, a, b, c)
 end)
 ```
 
 !!! tip
-	This a good way to do something for specific entries in the NPCs conversation tree.  For example, you could play a certain animation for one of the entries.
+	This a good way to do something for specific entries in the NPCs conversation tree. For example, you could play a certain animation for one of the entries.

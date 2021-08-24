@@ -4,12 +4,21 @@ docs_dir: docs
 extra_css:
   - styles/extra.css
 theme:
+  custom_dir: mkdocs-material/material
+  language: en
   font:
     text: Roboto
     code: Monospace
   palette:
-    scheme: slate
-    primary: blue
+    - scheme: slate
+      accent: orange
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
   name: material
   features:
     - navigation.tabs
@@ -17,10 +26,12 @@ theme:
     - navigation.instant
     - toc.integrate
     - navigation.expand
+  icon:
+    repo: fontawesome/brands/github
   
 nav:
-  - Documentation:
-    - index.md
+  - Dialogue System:
+    - Home: index.md
     - quick-start.md
     - how.md
     - themes.md
@@ -45,6 +56,7 @@ nav:
       - tutorial/call-events.md
       - tutorial/conditions.md
       - tutorial/condition-functions.md
+    - changes.md
     - credits.md
 
   - Core Games:
@@ -60,6 +72,12 @@ markdown_extensions:
   - admonition
   - pymdownx.highlight:
       linenums: true
+      linenums_style: pymdownx-inline
   - pymdownx.superfences
   - markdown.extensions.codehilite:
       guess_lang: false
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - lightgallery
+  - attr_list

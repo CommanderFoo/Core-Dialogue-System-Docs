@@ -4,9 +4,9 @@ Below are all the properties that are on the `Dialogue_Conversation` script.
 
 | Property Name | Description |
 | ------------- | ----------- |
-| `id` | The ID for this conversation.  This **must** be unique. |
-| `name` | The name of the character.  This will show up in the speaker element. |
-| `dialogue_trigger` | The dialogue trigger for this character.  It's important that the dialogue trigger is a child of the character as the system will look at the parent element and attach the indicator to it. |
+| `id` | The ID for this conversation. This **must** be unique. |
+| `name` | The name of the character. This will show up in the speaker element. |
+| `dialogue_trigger` | The dialogue trigger for this character. It's important that the dialogue trigger is a child of the character as the system will look at the parent element and attach the indicator to it. |
 | `repeat_dialogue` | Turn off if you do not want the character to repeat their dialogue. |
 | `disable_player_look` | Disables the player look when the dialogue is active. |
 | `disable_player_movement` | Disables the player movement when the dialogue is active. |

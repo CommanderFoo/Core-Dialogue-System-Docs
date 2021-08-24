@@ -9,4 +9,4 @@ Grab a character or whatever object you want the player to talk too, and drop it
 !!! tip
 	I would recommend naming your character and also placing it into a folder called `NPCs`.
 
-![](../images/setup_npc.png)
+![Image](../images/setup_npc.png)

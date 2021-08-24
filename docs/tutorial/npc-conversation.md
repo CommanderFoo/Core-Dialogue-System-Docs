@@ -1,6 +1,6 @@
 # 4. NPC Conversation
 
-Next we are going to drag the `Dialogue_Conversation` script into the database folder and setup some properties.  This script is the entry point for our new NPC.  Each NPC you create needs one of these scripts which acts as a data container.
+Next we are going to drag the `Dialogue_Conversation` script into the database folder and setup some properties. This script is the entry point for our new NPC. Each NPC you create needs one of these scripts which acts as a data container.
 
 We will set the `id` and `name` properties.
 
@@ -9,4 +9,4 @@ We will set the `id` and `name` properties.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gfL-4XCXRg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![](../images/tutorial_4.png)
+![Image](../images/tutorial_4.png)

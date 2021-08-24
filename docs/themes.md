@@ -1,6 +1,6 @@
 # Themes
 
-All themes require certain elements.  Each theme has properties on the root object which are.
+All themes require certain elements. Each theme has properties on the root object which are.
 
 | Property Name | Description |
 | ------------- | ----------- |
@@ -10,19 +10,19 @@ All themes require certain elements.  Each theme has properties on the root obje
 | `close_button` | The `UIButton` object that will be used to close the dialogue. |
 | `next_button` | The `UIButton` object that will be used to go to the next entry in the conversation. |
 
-Below are the themes that come with the system.  These can be used as a base to work from for creating a unique dialogue for your own game.  The `Basic Theme` is the most basic version that is a good starting point if you want to design your own.
+Below are the themes that come with the system. These can be used as a base to work from for creating a unique dialogue for your own game. The `Basic Theme` is the most basic version that is a good starting point if you want to design your own.
 
 <span style="color: yellow">**Bubbly Theme**</span><br />
-![](images/theme_1.png)
+![Image](images/theme_1.png)
 
 <span style="color: yellow">**Simple Theme**</span><br />
-![](images/theme_2.png)
+![Image](images/theme_2.png)
 
 <span style="color: yellow">**Corehaven Theme**</span><br />
-![](images/theme_3.png)
+![Image](images/theme_3.png)
 
 <span style="color: yellow">**Persona Theme**</span><br />
-![](images/theme_4.png)
+![Image](images/theme_4.png)
 
 <span style="color: yellow">**Basic Theme**</span><br />
-![](images/theme_5.png)
+![Image](images/theme_5.png)

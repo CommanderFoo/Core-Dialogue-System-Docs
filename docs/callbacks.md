@@ -2,15 +2,15 @@
 
 Callbacks are for the more experienced creator because the return value can be based on many conditions depending on what you want to achieve.
 
-For example, you can use callbacks to determine if an NPC should display certain choices to the player.  Maybe you have an NPC that sells special weapons, but you only want to list weapons that are for that players level.  This is where callbacks become really useful and make the dialogues appear more dynamic.
+For example, you can use callbacks to determine if an NPC should display certain choices to the player. Maybe you have an NPC that sells special weapons, but you only want to list weapons that are for that players level. This is where callbacks become really useful and make the dialogues appear more dynamic.
 
 To use the callback system, you need to require the `Dialogue_System` into your script by dropping it on as a custom property.
 
-```
+```lua
 local Dialogue_System = require(script:GetCustomProperty("Dialogue_System"))
 ```
 
-The next part is to hook up your callback so the system knows about it.  It's important to make sure that the callback name matches the value in the condition of the conversation entry / choice.
+The next part is to hook up your callback so the system knows about it. It's important to make sure that the callback name matches the value in the condition of the conversation entry / choice.
 
 So for example if the player choice condition for an item an NPC sells would be `function=can_show_epic_sword`.
 
