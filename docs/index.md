@@ -18,20 +18,20 @@ The Dialogue System will allow you to create conversations between characters an
 <hr>
 This system was built with 3 main goals.
 
-<span style="color: yellow">**Beginner Friendly**</span>
+- **Beginner Friendly**
 
-I wanted beginners to be able to get a conversation with player choices up and running quickly.
+	I wanted beginners to be able to get a conversation with player choices up and running quickly.
 
-This system can be used without Lua knowledge, and doesn't require you to open up Lua Scripts to write your own conversation branches.
+	This system can be used without Lua knowledge, and doesn't require you to open up Lua Scripts to write your own conversation branches.
 
-<span style="color: yellow">**Advanced Features**</span>
+- **Advanced Features**
 
-Advanced features for those with Lua knowledge so they can immerse the player into a conversation.
+	Advanced features for those with Lua knowledge so they can immerse the player into a conversation.
 
-This means the same character can provide different conversation branches and choices for the player to explore based on player actions in game. This is a great way to add more depth to the characters.
+	This means the same character can provide different conversation branches and choices for the player to explore based on player actions in game. This is a great way to add more depth to the characters.
 
-<span style="color: yellow">**Customization**</span>
+- **Customization**
 
-The system comes with a few different themes that can be swapped out in editor and runtime.
+	The system comes with a few different themes that can be swapped out in editor and runtime.
 
-The system allows for easy customization of the dialogues and player choices so you can make the dialogues unique for your game.
+	The system allows for easy customization of the dialogues and player choices so you can make the dialogues unique for your game.

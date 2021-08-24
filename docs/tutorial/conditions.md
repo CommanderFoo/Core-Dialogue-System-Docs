@@ -10,7 +10,7 @@ In the video below we will setup a resource check condition so when the player a
 
 In the video there are 2 things to note.
 
-1. <span style="color: yellow">**A replacement variable being used.**</span>
+1. **A replacement variable being used.**
 
 	`{resource=cookie,true,true}`
 
@@ -19,7 +19,7 @@ In the video there are 2 things to note.
 	- Write out the name of the resource.
 	- Handle the plural for us so that cases such as "You have 1 Cookie" and "You have 100 Cookies" where "s" is added automatically so it reads better for the player.
 
-2. <span style="color: yellow">**Condition Syntax.**</span>
+2. **Condition Syntax.**
 
 	`resource=cookie;>=1`
 

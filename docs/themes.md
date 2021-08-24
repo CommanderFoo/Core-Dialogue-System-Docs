@@ -12,17 +12,17 @@ All themes require certain elements. Each theme has properties on the root objec
 
 Below are the themes that come with the system. These can be used as a base to work from for creating a unique dialogue for your own game. The `Basic Theme` is the most basic version that is a good starting point if you want to design your own.
 
-<span style="color: yellow">**Bubbly Theme**</span><br />
+**Bubbly Theme**<br />
 ![Image](images/theme_1.png)
 
-<span style="color: yellow">**Simple Theme**</span><br />
+**Simple Theme**<br />
 ![Image](images/theme_2.png)
 
-<span style="color: yellow">**Corehaven Theme**</span><br />
+**Corehaven Theme**<br />
 ![Image](images/theme_3.png)
 
-<span style="color: yellow">**Persona Theme**</span><br />
+**Persona Theme**<br />
 ![Image](images/theme_4.png)
 
-<span style="color: yellow">**Basic Theme**</span><br />
+**Basic Theme**<br />
 ![Image](images/theme_5.png)
